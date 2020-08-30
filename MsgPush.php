@@ -1,4 +1,5 @@
 <?php
+header('Access-Control-Allow-Origin: *');
 if($_SERVER['REQUEST_METHOD'] == "POST")
 { $imsg = $_POST['msg'];
    $accessToken = "nvKxWFmgwTVFM2Xs2a6dNfO2myEOUZe8hieYkUgAF2MSlSZ+ZMPT/HQMIaUwoXBF86przIhx1a5BlEmgglpIIihe/bxvsJ0FPuSn0gR0QpFQWeVR6Rt0IVpbLLpGGK6fXe63uX0pPd0sJUcLS5VchAdB04t89/1O/w1cDnyilFU=";//copy ข้อความ Channel access token ตอนที่ตั้งค่า
